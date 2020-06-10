@@ -1,0 +1,69 @@
+#view{
+  margin-top:60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+body{
+    background-color: #8B008B;
+
+}
+#Allusers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: solid groove;
+    margin-top: 5%;
+}
+
+#Allusers td, #Allusers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    overflow: hidden;
+}
+
+#Allusers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Allusers tr:hover {
+    background-color:#f2f2f2;
+}
+
+#Allusers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #555;
+    color: white;
+}
+
+body {
+    background:#8B008B;
+}
+
+.alert {
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+.alert2 {
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
